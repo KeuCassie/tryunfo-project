@@ -22,41 +22,48 @@ class Form extends Component {
       <form>
         <input
           type="text"
+          name="cardName"
           value={ cardName }
           onChange={ onInputChange }
           data-testid="name-input"
         />
         <textarea
           type="textarea"
+          name="cardDescription"
           value={ cardDescription }
           onChange={ onInputChange }
           data-testid="description-input"
         />
         <input
           type="number"
+          name="cardAttr1"
           value={ cardAttr1 }
           onChange={ onInputChange }
           data-testid="attr1-input"
         />
         <input
           type="number"
+          name="cardAttr2"
           value={ cardAttr2 }
           onChange={ onInputChange }
           data-testid="attr2-input"
         />
         <input
           type="number"
+          name="cardAttr3"
           value={ cardAttr3 }
           onChange={ onInputChange }
           data-testid="attr3-input"
         />
         <input
           type="text"
+          name="cardImage"
           value={ cardImage }
           onChange={ onInputChange }
           data-testid="image-input"
         />
         <select
+          name="cardRare"
           value={ cardRare }
           onChange={ onInputChange }
           data-testid="rare-input"
@@ -66,6 +73,7 @@ class Form extends Component {
           <option>muito raro</option>
         </select>
         <input
+          name="cardTrunfo"
           type="checkbox"
           checked={ cardTrunfo }
           onChange={ onInputChange }
