@@ -20,10 +20,10 @@ todas as cartas com informações sobre missões espaciais.</p>
 - [x] Botão para remover uma carta do baralho
 - [x] Filtro pelo nome da carta
 - [x] Filtro por raridade da carta
-- [] Filtro de Super Trunfo
-- [] Botão `Jogar`
-- [] Botão `Próxima Carta`
-- [] Botão `Embaralhar Cartas`
+- [ ] Filtro de Super Trunfo
+- [ ] Botão `Jogar`
+- [ ] Botão `Próxima Carta`
+- [ ] Botão `Embaralhar Cartas`
 
 ### Características Técnicas
 - JSX no React
